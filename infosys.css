@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+*{
+    padding: 0;
+    margin: 0;
+}
+.img {
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/5tzM4nBs/infosys.webp");
+    background-size: cover;
+  }
+.navbar {
+    height: 80px;
+    width: 100%;
+  }
+  .logo{
+    width: 40px;
+    height: auto;
+    padding: 20px 100px;
+  }
+  .navbar ul{
+    float: right;
+    margin-right: 20px;
+  }
+  .navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+  }
+  .navbar ul li a{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 20px;
+}
+.img .centre{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    color: white;
+}
+.left h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Sofia';
+    width: 900px;
+    text-align: center;
+    color: aliceblue;
+}
+.left h3{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Tangerine', serif;
+    width: 900px;
+    text-align: center;
+    color: aliceblue;
+}
+.left .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    transition: .6s;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
